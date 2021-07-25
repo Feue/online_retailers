@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/PagingDozer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/SpuSimplifyVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1tTVk15u1nhjf0cUnowk12ynrSs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -59,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="JPA.DatabaseSchemaImportDialog" value="0aa894d6-d0c9-46d1-804c-d61d9e903c17" />
@@ -207,7 +210,7 @@
       <workItem from="1627197680815" duration="975000" />
       <workItem from="1627199985573" duration="4258000" />
       <workItem from="1627204542817" duration="32000" />
-      <workItem from="1627204581573" duration="1207000" />
+      <workItem from="1627204581573" duration="2498000" />
     </task>
     <servers />
   </component>
@@ -235,6 +238,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
