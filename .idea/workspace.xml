@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/PagingDozer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/SpuSimplifyVO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tTVk15u1nhjf0cUnowk12ynrSs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="0aa894d6-d0c9-46d1-804c-d61d9e903c17" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunConfigurationTargetLRU" value="d63a0275-ab97-4c1f-9fca-615c77ac745a/schema/&quot;sleeve&quot;" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/imgs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\learn\SpringBoot\missyou\src\main\resources\static\imgs" />
+      <recent name="F:\learn\SpringBoot\missyou\profile\sql" />
+      <recent name="F:\learn\SpringBoot\missyou\src\main\resources\templates" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.feue.missyou.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.feue.missyou.api.v1" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MissyouApplication">
+    <configuration name="LOLApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feue.missyou.LOLApplication" />
+      <module name="missyou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feue.missyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="missyou-v1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/profile/sql/missyou-v1.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="d63a0275-ab97-4c1f-9fca-615c77ac745a" namespace="schema/&quot;sleeve&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JdbcTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="missyou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feue.missyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.feue.missyou" />
+      <option name="MAIN_CLASS_NAME" value="com.feue.missyou.JdbcTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissyouApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="missyou" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.feue.missyou.MissyouApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.missyou-v1.sql" />
+        <item itemvalue="JUnit.JdbcTest.test" />
+        <item itemvalue="Application.LOLApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\15537\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="" />
+      <created>1622793206368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622793206368</updated>
+      <workItem from="1622793207864" duration="3959000" />
+      <workItem from="1622812674046" duration="1130000" />
+      <workItem from="1622814532477" duration="2753000" />
+      <workItem from="1622871178241" duration="1233000" />
+      <workItem from="1622898304104" duration="64000" />
+      <workItem from="1623976782752" duration="2399000" />
+      <workItem from="1624175629736" duration="9327000" />
+      <workItem from="1626055986892" duration="1343000" />
+      <workItem from="1626069940959" duration="2105000" />
+      <workItem from="1626096377562" duration="1928000" />
+      <workItem from="1626246933234" duration="4624000" />
+      <workItem from="1626312202935" duration="3641000" />
+      <workItem from="1626397299254" duration="8153000" />
+      <workItem from="1626416987595" duration="2478000" />
+      <workItem from="1626609702416" duration="150000" />
+      <workItem from="1626609897652" duration="138000" />
+      <workItem from="1626610165369" duration="534000" />
+      <workItem from="1626610742943" duration="866000" />
+      <workItem from="1626611821445" duration="4147000" />
+      <workItem from="1626656957886" duration="17499000" />
+      <workItem from="1626686964382" duration="293000" />
+      <workItem from="1626742481780" duration="4710000" />
+      <workItem from="1626747271960" duration="3846000" />
+      <workItem from="1626756303692" duration="2575000" />
+      <workItem from="1626759036420" duration="977000" />
+      <workItem from="1626760092885" duration="26000" />
+      <workItem from="1626760290119" duration="7910000" />
+      <workItem from="1626835092412" duration="10909000" />
+      <workItem from="1626935735238" duration="3299000" />
+      <workItem from="1626942681188" duration="800000" />
+      <workItem from="1626948961700" duration="79000" />
+      <workItem from="1627003445828" duration="5000000" />
+      <workItem from="1627019245069" duration="10380000" />
+      <workItem from="1627034592429" duration="804000" />
+      <workItem from="1627117309610" duration="1757000" />
+      <workItem from="1627176711088" duration="1100000" />
+      <workItem from="1627177888658" duration="611000" />
+      <workItem from="1627189568641" duration="4120000" />
+      <workItem from="1627197680815" duration="975000" />
+      <workItem from="1627199985573" duration="4258000" />
+      <workItem from="1627204542817" duration="32000" />
+      <workItem from="1627204581573" duration="1207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="javax.persistence.PersistenceException" package="javax.persistence" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
