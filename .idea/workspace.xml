@@ -4,67 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="add README.md">
-      <change afterPath="$PROJECT_DIR$/profile/sql/missyou-v2-data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/GridCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/ThemeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/GridCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/ThemeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/SkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/exception/http/ServerErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/GridCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Spec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Theme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/GridCategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/ThemeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/GenericAndJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/ListAndJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/MapAndJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/CategoriesAllVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/CategoryPureVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/ThemePureVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/feue/missyou/optional/OptionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0aa894d6-d0c9-46d1-804c-d61d9e903c17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0aa894d6-d0c9-46d1-804c-d61d9e903c17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/sql/missyou-v1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/profile/sql/missyou-v1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/BannerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/BannerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/SpuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/SpuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/SpuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/ThemeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/ThemeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Banner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/BannerItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/BannerItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Sku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Sku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Spu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Spu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/SpuDetailImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/SpuDetailImg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/SpuImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/SpuImg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/SpuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/SpuRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/PagingDozer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/PagingDozer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/exception-codes.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/exception-codes.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/BannerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/SpuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/SpuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/SpuServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/SpuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/SpuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/ThemeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/ThemeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Banner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/BannerItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/BannerItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Spu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Spu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/SpuDetailImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/SpuDetailImg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/SpuImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/SpuImg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/repository/SpuRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/repository/SpuRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/util/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/util/CommonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/vo/PagingDozer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/vo/PagingDozer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/exception-codes.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/exception-codes.properties" afterDir="false" />
-    </list>
+    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="新增sku、category、theme相关业务，spu分页查询，通用泛型映射" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -318,7 +258,7 @@
       <workItem from="1627261036151" duration="10006000" />
       <workItem from="1627380368703" duration="17000" />
       <workItem from="1627435947604" duration="17347000" />
-      <workItem from="1627460184969" duration="4364000" />
+      <workItem from="1627460184969" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="add README.md">
       <created>1627207275304</created>
@@ -327,7 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627207275304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增sku、category、theme相关业务，spu分页查询，通用泛型映射">
+      <created>1627465477671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627465477671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增sku、category、theme相关业务，spu分页查询，通用泛型映射">
+      <created>1627465536819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627465536819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +313,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
+    <MESSAGE value="新增sku、category、theme相关业务，spu分页查询，通用泛型映射" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增sku、category、theme相关业务，spu分页查询，通用泛型映射" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
