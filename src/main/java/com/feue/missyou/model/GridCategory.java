@@ -10,17 +10,19 @@ import java.util.Objects;
 
 /**
  * @author Feue
- * @create 2021-07-23 17:11
+ * @create 2021-07-28 14:28
  */
 @Entity
-@Table(name = "spu_detail_img", schema = "sleeve", catalog = "")
+@Table(name = "grid_category", schema = "sleeve", catalog = "")
 @Getter
 @Setter
 @Where(clause = "delete_time is null")
-public class SpuDetailImg extends BaseEntity {
+public class GridCategory extends BaseEntity {
     @Id
     private Long id;
+    private String title;
     private String img;
-    private Long spuId;
-    private Long index;
+    private String name;
+    private Long categoryId;
+    private Long rootCategoryId;
 }

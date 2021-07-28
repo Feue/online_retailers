@@ -1,6 +1,8 @@
 package com.feue.missyou.repository;
 
 import com.feue.missyou.model.Spu;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -9,4 +11,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface SpuRepository extends JpaRepository<Spu, Long> {
     Spu findOneById(Long id);
+
+    Page<Spu> findByCategoryIdOrderByCreateTimeDesc(Long cid, Pageable pageable);
+    // select * from spu where category_id = cid
+    Page<Spu> findByRootCategoryIdOrderByCreateTime(Long cid, Pageable pageable);
 }

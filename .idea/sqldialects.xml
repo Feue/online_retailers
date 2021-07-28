@@ -2,6 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/profile/sql/missyou-v1.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/profile/sql/missyou-v2-data.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MariaDB" />
   </component>
 </project>

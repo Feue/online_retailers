@@ -12,9 +12,9 @@ import java.util.List;
  * @create 2021-07-25 13:46
  */
 public class PagingDozer<T, K> extends Paging {
+    @SuppressWarnings(value = "unchecked")
     public PagingDozer(Page<T> pageT, Class<K> classK) {
         this.initPageParameters(pageT);
-
         List<T> tList = pageT.getContent();
         Mapper mapper = DozerBeanMapperBuilder.buildDefault();
         List<K> voList = new ArrayList<>();
