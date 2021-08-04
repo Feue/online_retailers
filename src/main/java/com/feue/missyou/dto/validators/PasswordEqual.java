@@ -1,4 +1,4 @@
-package com.feue.missyou.validators;
+package com.feue.missyou.dto.validators;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

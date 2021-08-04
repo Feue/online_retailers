@@ -1,4 +1,4 @@
-package com.feue.missyou.validators;
+package com.feue.missyou.dto.validators;
 
 import com.feue.missyou.dto.PersonDTO;
 
@@ -10,9 +10,9 @@ import javax.validation.ConstraintValidatorContext;
  * @create 2021-07-19 13:05
  */
 public class PasswordValidator implements ConstraintValidator<PasswordEqual, PersonDTO> {
-    private int min;
+    private Integer min;
 
-    private int max;
+    private Integer max;
 
     @Override
     public void initialize(PasswordEqual constraintAnnotation) {
@@ -25,10 +25,10 @@ public class PasswordValidator implements ConstraintValidator<PasswordEqual, Per
     public boolean isValid(PersonDTO personDTO, ConstraintValidatorContext constraintValidatorContext) {
         String password1 = personDTO.getPassword1();
         String password2 = personDTO.getPassword2();
-        boolean match = password1.length()>=min
-                && password1.length()<=max
-                && password2.length()>=min
-                && password2.length()<=max
+        boolean match = password1.length() >= this.min
+                && password1.length() <= this.max
+                && password2.length() >= this.min
+                && password2.length() <= this.max
                 && password1.equals(password2);
         return match;
     }

@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="新增sku、category、theme相关业务，spu分页查询，通用泛型映射" />
+    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="新增sku、category、theme相关业务，spu分页查询，通用泛型映射">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/WxAuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/AuthenticationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/WxAuthenticationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/configuration/InterceptorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/LoginType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/interceptors/PermissionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/interceptors/ScopeLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/TokenGetDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/validators/TokenPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/validators/TokenPasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/exception/http/ParameterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/exception/http/UnAuthenticatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/JwtToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/missyou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/missyou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/BannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/BannerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/GlobalExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/GlobalExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/validators/PasswordEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/validators/PasswordEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/validators/PasswordValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/validators/PasswordValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/exception-codes.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/exception-codes.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/BannerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/BannerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/GlobalExceptionAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/GlobalExceptionAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/dto/PersonDTO$PersonDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/dto/PersonDTO$PersonDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/dto/PersonDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/dto/PersonDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/validators/PasswordEqual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/validators/PasswordValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/exception-codes.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/exception-codes.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +60,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -77,6 +121,7 @@
     <property name="RunConfigurationTargetLRU" value="d63a0275-ab97-4c1f-9fca-615c77ac745a/schema/&quot;sleeve&quot;&#10;0aa894d6-d0c9-46d1-804c-d61d9e903c17/schema/&quot;sleeve&quot;" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
@@ -102,6 +147,7 @@
       <recent name="com.feue.missyou.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.feue.missyou.exception.http" />
       <recent name="com.feue.missyou.api.v1" />
     </key>
   </component>
@@ -110,7 +156,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OptionalTest.testOptional">
+  <component name="RunManager" selected="Spring Boot.MissyouApplication">
     <configuration name="LOLApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.feue.missyou.LOLApplication" />
       <module name="missyou" />
@@ -120,19 +166,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,7 +291,10 @@
       <workItem from="1627261036151" duration="10006000" />
       <workItem from="1627380368703" duration="17000" />
       <workItem from="1627435947604" duration="17347000" />
-      <workItem from="1627460184969" duration="4828000" />
+      <workItem from="1627460184969" duration="4898000" />
+      <workItem from="1627627375386" duration="8971000" />
+      <workItem from="1628039481733" duration="2326000" />
+      <workItem from="1628053714106" duration="13508000" />
     </task>
     <task id="LOCAL-00001" summary="add README.md">
       <created>1627207275304</created>
@@ -281,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627465536819</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增sku、category、theme相关业务，spu分页查询，通用泛型映射">
+      <created>1627465658205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627465658205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,16 +374,6 @@
           <properties class="java.sql.SQLException" package="java.sql" />
           <option name="timeStamp" value="12" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/feue/missyou/core/hack/AutoPrefixUrlMapping.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/feue/missyou/core/hack/AutoPrefixUrlMapping.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

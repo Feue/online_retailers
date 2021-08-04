@@ -1,9 +1,8 @@
 package com.feue.missyou.dto;
 
-import com.feue.missyou.validators.PasswordEqual;
+import com.feue.missyou.dto.validators.PasswordEqual;
 import lombok.*;
 import org.hibernate.validator.constraints.Length;
-import org.springframework.validation.annotation.Validated;
 
 import javax.validation.Valid;
 

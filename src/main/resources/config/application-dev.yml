@@ -11,3 +11,8 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
+
+missyou:
+  security:
+    jwt-key: feue666666
+    token-expired-in: 3600000

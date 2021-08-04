@@ -1,6 +1,7 @@
 package com.feue.missyou.api.v1;
 
 import com.feue.missyou.Service.BannerService;
+import com.feue.missyou.core.interceptors.ScopeLevel;
 import com.feue.missyou.dto.PersonDTO;
 import com.feue.missyou.exception.http.ForbiddenException;
 import com.feue.missyou.exception.http.NotFoundException;
@@ -29,6 +30,7 @@ public class BannerController {
     private BannerService bannerService;
 
     @GetMapping("/name/{name}")
+    @ScopeLevel
     public Banner getByName(@PathVariable @NotBlank String name) {
         Banner banner = bannerService.getByName(name);
         if (banner == null) {
