@@ -1,5 +1,7 @@
 package com.feue.missyou.core;
 
+import com.feue.missyou.exception.http.CreateSuccess;
+
 /**
  * @author Feue
  * @create 2021-07-16 11:28
@@ -37,5 +39,9 @@ public class UnifyResponse {
 
     public void setRequest(String request) {
         this.request = request;
+    }
+
+    public static void createSuccess(int code) {
+        throw new CreateSuccess(code);
     }
 }
