@@ -1,5 +1,8 @@
 package com.feue.missyou.model;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.feue.missyou.dto.OrderAddressDTO;
+import com.feue.missyou.util.GenericAndJson;
 import lombok.*;
 import org.hibernate.annotations.Where;
 
@@ -7,6 +10,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -32,10 +36,36 @@ public class Order extends BaseEntity {
     private Date placedTime;
     private String snapImg;
     private String snapTitle;
+
+    private String snapItems;
+
+    private String snapAddress;
+
     private String prepayId;
     private BigDecimal finalTotalPrice;
     private Integer status;
 
-//    private Object snapItems;
-//    private Object snapAddress;
+    public OrderAddressDTO getSnapAddress() {
+        if (this.snapAddress == null) {
+            return null;
+        }
+        OrderAddressDTO dto = GenericAndJson.jsonToObject(this.snapAddress, new TypeReference<OrderAddressDTO>() {});
+        return dto;
+    }
+
+    public void setSnapAddress(OrderAddressDTO address) {
+        this.snapAddress = GenericAndJson.objectToJson(address);
+    }
+
+    public List<OrderSku> getSnapItem() {
+        if (this.snapItems == null) {
+            return null;
+        }
+        List<OrderSku> orderSkuList = GenericAndJson.jsonToObject(this.snapItems, new TypeReference<List<OrderSku>>() {});
+        return orderSkuList;
+    }
+
+    public void setSnapItems(List<OrderSku> orderSkuList) {
+        this.snapItems = GenericAndJson.objectToJson(orderSkuList);
+    }
 }

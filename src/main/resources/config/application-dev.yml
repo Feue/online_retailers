@@ -18,4 +18,4 @@ missyou:
     token-expired-in: 3600000
   order:
     max-sku-limit: 666
-    pay-time-limit:
+    pay-time-limit: 1800000

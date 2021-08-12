@@ -17,6 +17,7 @@ import java.util.List;
  * @author Feue
  * @create 2021-08-10 10:07
  *
+ * 校验并为Order提供数据
  * 订单 校验参数
  * 1. 商品 无货
  * 2. 商品最大购买数量

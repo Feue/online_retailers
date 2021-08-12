@@ -4,36 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="0809优惠券">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/SkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/TestController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/bo/SkuOrderBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/CouponType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/HalfEvenRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/HalfUpRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/IMoneyDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/UpRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/OrderAddressDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/SkuInfoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/logic/CouponChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/logic/OrderChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/OrderSku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/SkuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/sample/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/OrderIdVO.java" afterDir="false" />
+    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="0812订单校验">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/OrderUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/CouponStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/CouponStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Sku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Sku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Spec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Spec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/logic/OrderChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/logic/OrderChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/enumeration/CouponStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/enumeration/CouponStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/Service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/api/v1/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/logic/OrderChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/logic/OrderChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Order$OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Order$OrderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Spec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Spec.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +40,9 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
+        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -144,16 +135,14 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MissyouApplication">
-    <configuration name="LOLApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.feue.missyou.LOLApplication" />
-      <module name="missyou" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.feue.missyou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.OptionalTest.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,6 +169,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.feue.missyou" />
       <option name="MAIN_CLASS_NAME" value="com.feue.missyou.JdbcTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="missyou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feue.missyou.optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.feue.missyou.optional" />
+      <option name="MAIN_CLASS_NAME" value="com.feue.missyou.optional.OptionalTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -215,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OptionalTest.test" />
         <item itemvalue="JUnit.OptionalTest.testOptional" />
         <item itemvalue="Database Script.missyou-v2-data.sql" />
         <item itemvalue="Database Script.missyou-v1.sql" />
         <item itemvalue="JUnit.JdbcTest.test" />
-        <item itemvalue="Application.LOLApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +296,7 @@
       <workItem from="1628486037155" duration="14073000" />
       <workItem from="1628557927774" duration="10855000" />
       <workItem from="1628664305574" duration="7716000" />
-      <workItem from="1628732563411" duration="1997000" />
+      <workItem from="1628732563411" duration="8525000" />
     </task>
     <task id="LOCAL-00001" summary="add README.md">
       <created>1627207275304</created>
@@ -349,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628558084042</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0812订单校验">
+      <created>1628734622288</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628734622288</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +396,8 @@
     <MESSAGE value="新增sku、category、theme相关业务，spu分页查询，通用泛型映射" />
     <MESSAGE value="令牌与权限" />
     <MESSAGE value="0809优惠券" />
-    <option name="LAST_COMMIT_MESSAGE" value="0809优惠券" />
+    <MESSAGE value="0812订单校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="0812订单校验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
