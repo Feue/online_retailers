@@ -4,46 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="令牌与权限">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/CouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/ActivityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/CouponServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/ActivityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/CouponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/LocalUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/CouponStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/exception/http/CreateSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/ActivityCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/UserCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/ActivityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/CouponRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/UserCouponRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/ActivityCouponVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/ActivityPureVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/CouponCategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/CouponPureVO.java" afterDir="false" />
+    <list default="true" id="ef302595-c94f-4b4c-aabb-b0df6055c593" name="Default Changelist" comment="0809优惠券">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/SkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/Service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/TestController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/bo/SkuOrderBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/CouponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/HalfEvenRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/HalfUpRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/IMoneyDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/money/UpRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/OrderAddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/dto/SkuInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/logic/CouponChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/logic/OrderChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/OrderSku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/SkuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/sample/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/vo/OrderIdVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/UnifyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/UnifyResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/configuration/InterceptorConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/configuration/InterceptorConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/LoginType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/LoginType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/interceptors/PermissionInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/interceptors/PermissionInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/util/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/exception-codes.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/exception-codes.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/UnifyResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/UnifyResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/configuration/InterceptorConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/configuration/InterceptorConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/enumeration/LoginType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/enumeration/LoginType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/interceptors/PermissionInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/interceptors/PermissionInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/util/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/util/CommonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/exception-codes.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/exception-codes.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/api/v1/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/CouponStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/core/enumeration/CouponStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Sku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Sku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Spec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feue/missyou/model/Spec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/enumeration/CouponStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/core/enumeration/CouponStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feue/missyou/model/Sku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +49,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -163,17 +154,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,6 +289,9 @@
       <workItem from="1628139523136" duration="223000" />
       <workItem from="1628227658954" duration="13301000" />
       <workItem from="1628486037155" duration="14073000" />
+      <workItem from="1628557927774" duration="10855000" />
+      <workItem from="1628664305574" duration="7716000" />
+      <workItem from="1628732563411" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="add README.md">
       <created>1627207275304</created>
@@ -352,7 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628069735839</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0809优惠券">
+      <created>1628558070199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628558070199</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0809优惠券">
+      <created>1628558084042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628558084042</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +383,8 @@
     <MESSAGE value="add README.md" />
     <MESSAGE value="新增sku、category、theme相关业务，spu分页查询，通用泛型映射" />
     <MESSAGE value="令牌与权限" />
-    <option name="LAST_COMMIT_MESSAGE" value="令牌与权限" />
+    <MESSAGE value="0809优惠券" />
+    <option name="LAST_COMMIT_MESSAGE" value="0809优惠券" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

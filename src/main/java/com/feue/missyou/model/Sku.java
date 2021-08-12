@@ -1,5 +1,6 @@
 package com.feue.missyou.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.feue.missyou.util.GenericAndJson;
 import com.feue.missyou.util.ListAndJson;
@@ -15,6 +16,7 @@ import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author Feue
@@ -56,6 +58,20 @@ public class Sku extends BaseEntity {
             return;
         }
         this.specs = GenericAndJson.objectToJson(specs);
+    }
+
+    public BigDecimal getActualPrice() {
+        if (this.discountPrice != null) {
+            return this.discountPrice;
+        }
+        return this.price;
+    }
+
+    @JsonIgnore
+    public List<String> getSpecValueList() {
+        return this.getSpecs().stream()
+                .map(Spec::getValue)
+                .collect(Collectors.toList());
     }
 //    @Convert(converter = MapAndJson.class)
 //    private Map<String, Object> test;

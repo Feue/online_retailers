@@ -16,3 +16,6 @@ missyou:
   security:
     jwt-key: feue666666
     token-expired-in: 3600000
+  order:
+    max-sku-limit: 666
+    pay-time-limit:

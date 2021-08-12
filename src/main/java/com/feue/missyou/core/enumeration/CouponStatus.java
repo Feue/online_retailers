@@ -23,7 +23,7 @@ public enum CouponStatus {
 
     public static CouponStatus toType(int value) {
         return Stream.of(CouponStatus.values())
-                .filter(c -> c.value == value)
+                .filter(cs -> cs.value == value)
                 .findAny()
                 .orElse(null);
     }
